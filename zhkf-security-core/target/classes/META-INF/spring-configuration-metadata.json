@@ -1,0 +1,22 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.zhkf.security.core.properties.SecurityProperties",
+      "name": "zhkf.security",
+      "type": "com.zhkf.security.core.properties.SecurityProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.zhkf.security.core.properties.SecurityProperties",
+      "name": "zhkf.security.browser",
+      "type": "com.zhkf.security.core.properties.BrowserProperties"
+    },
+    {
+      "sourceType": "com.zhkf.security.core.properties.SecurityProperties",
+      "name": "zhkf.security.code",
+      "type": "com.zhkf.security.core.properties.ValidateCodeProperties"
+    }
+  ]
+}
