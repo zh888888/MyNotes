@@ -1,22 +1,14 @@
 package com.zhkf.security.core.properties;
 
-public class ImageCodeProperties {
+public class ImageCodeProperties extends SmsCodeProperties{
     //验证码基本属性
     private int width = 67;
     private int height = 23;
-    private int length = 4;
-    private int expireIn = 60;
 
-    private String url;
 
-    public String getUrl() {
-        return url;
+    public ImageCodeProperties(){
+        setLength(4);
     }
-
-    public void setUrl(String url) {
-        this.url = url;
-    }
-
     public int getWidth() {
         return width;
     }
@@ -33,19 +25,4 @@ public class ImageCodeProperties {
         this.height = height;
     }
 
-    public int getLength() {
-        return length;
-    }
-
-    public void setLength(int length) {
-        this.length = length;
-    }
-
-    public int getExpireIn() {
-        return expireIn;
-    }
-
-    public void setExpireIn(int expireIn) {
-        this.expireIn = expireIn;
-    }
 }

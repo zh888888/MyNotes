@@ -49,6 +49,7 @@ public class ImageCodeGenerator implements  ValidateCodeGenerator{
         return new ImageCode(image, sRand, securityProperties.getCode().getImage().getExpireIn());
     }
 
+
     /**
      * 生成随机背景条纹
      *
